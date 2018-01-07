@@ -71,7 +71,7 @@ gulp.task('iconfont:build', function(){
       prependUnicode: true,
       normalize: true,
       centerHorizontally: true,
-      fontHeight: 1000
+      fontHeight: 1001
      }))
     .pipe(gulp.dest('src/fonts/' + fontName));
 });
